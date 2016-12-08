@@ -11,6 +11,8 @@ end
 # Use Procfile for production web server
 gem 'puma'
 
+gem 'heroku'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
