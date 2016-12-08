@@ -54,3 +54,5 @@ group :development do
   gem 'spring'
 end
 
+# Use to enable all platform features
+gem 'rails_12factor'
