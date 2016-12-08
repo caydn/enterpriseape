@@ -7,6 +7,10 @@ gem 'rails', '4.2.5'
 group :production do
   gem 'pg'
 end
+
+# Use Procfile for production web server
+gem 'puma'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
